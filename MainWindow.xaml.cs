@@ -22,6 +22,7 @@ namespace Моя_телефонная_книга
             UpdateNoteBooks();
             FilePathAvatar = @"C:\Users\Жмых\source\repos\Моя телефонная книга\Picture\avatar.png";
             FilePathAvatar = @"C:\Users\Жмых\source\repos\Моя телефонная книга\Picture\avatar.png";
+            FilePathAvatar = @"C:\Users\Жмых\source\repos\Моя телефонная книга\Picture\avatar.png";
             nameBookTextBox.MaxLength = 30;
             ownerBookTextBox.MaxLength = 30;
             mailBookTextBox.MaxLength = 43;
