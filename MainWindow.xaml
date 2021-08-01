@@ -1,0 +1,99 @@
+﻿<Window x:Class="Моя_телефонная_книга.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Моя_телефонная_книга"
+        mc:Ignorable="d"
+        Title="MainWindow" ResizeMode="NoResize" WindowStyle="None" WindowState="Maximized" Icon="Picture/icon.png" MouseEnter="Window_MouseEnter">
+    <Grid Background="#FF17212B">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="269*"/>
+            <RowDefinition Height="270*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="479*"/>
+            <ColumnDefinition Width="481*"/>
+        </Grid.ColumnDefinitions>
+        <Grid x:Name="upGrid" HorizontalAlignment="Left" Height="40" VerticalAlignment="Top" Width="1920" Background="#FF1F2936" Grid.ColumnSpan="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Grid x:Name="closeGrid" HorizontalAlignment="Left" Height="40" Margin="1880,0,0,0" VerticalAlignment="Top" Width="40" MouseEnter="closeGrid_MouseEnter" MouseLeave="closeGrid_MouseLeave" MouseDown="closeGrid_MouseDown">
+                <Image x:Name="closeImage" Margin="5,4" Source="Picture\close.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5" Opacity="0.5">
+                    <Image.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform ScaleY="-1"/>
+                            <SkewTransform/>
+                            <RotateTransform/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </Image.RenderTransform>
+                </Image>
+            </Grid>
+            <Grid x:Name="hideGrid" HorizontalAlignment="Left" Height="40" Margin="1743,0,0,0" VerticalAlignment="Top" Width="53" Opacity="0.2" MouseEnter="hideGrid_MouseEnter" MouseLeave="hideGrid_MouseLeave" MouseDown="hideGrid_MouseDown"/>
+            <Image x:Name="hideImage" Margin="1753,10,135,0" Source="Picture\hide.png" Stretch="Fill" Opacity="0.5" MouseEnter="hideGrid_MouseEnter" MouseLeave="hideGrid_MouseLeave" MouseDown="hideGrid_MouseDown"/>
+        </Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="662,192,0,0" TextWrapping="Wrap" Text="Добро пожаловать!" VerticalAlignment="Top" FontSize="55" Foreground="White" FontWeight="Bold" Height="78" Width="593" Grid.ColumnSpan="2"/>
+        <TextBlock HorizontalAlignment="Left" Margin="662,300,0,0" TextWrapping="Wrap" Text="Добавьте новую или выберите существующую телефонную книгу." VerticalAlignment="Top" FontSize="45" Foreground="#99FFFFFF" Height="206" Width="593" Grid.ColumnSpan="2"/>
+        <Grid x:Name="adGrid" HorizontalAlignment="Left" Height="55" Margin="667,511,0,0" VerticalAlignment="Top" Width="472" Opacity="0.2" Grid.ColumnSpan="2" Grid.RowSpan="2"/>
+        <TextBlock x:Name="addBookTextBlock" HorizontalAlignment="Left" Margin="705,506,0,0" TextWrapping="Wrap" Text="Добавить новую книгу" VerticalAlignment="Top" FontSize="40" Foreground="#D8FFFFFF" Height="60" Width="434" MouseEnter="addBookTextBlock_MouseEnter" MouseLeave="addBook2TextBlock_MouseLeave" Grid.ColumnSpan="2" Grid.RowSpan="2" MouseDown="addBookTextBlock_MouseDown"/>
+        <TextBlock x:Name="addBook2TextBlock" HorizontalAlignment="Left" Margin="667,506,0,0" TextWrapping="Wrap" Text="+" VerticalAlignment="Top" FontSize="45" Foreground="#D8FFFFFF" Height="60" Width="33" FontWeight="Bold" MouseEnter="addBookTextBlock_MouseEnter" MouseLeave="addBook2TextBlock_MouseLeave" Grid.RowSpan="2" MouseDown="addBookTextBlock_MouseDown"/>
+        <ListBox x:Name="bookListBox" ScrollViewer.VerticalScrollBarVisibility="Auto" HorizontalAlignment="Left" Height="410" Margin="662,33,0,0" VerticalAlignment="Top" Width="595" Background="{x:Null}" BorderBrush="#33ABADB3" Opacity="0.9" Grid.Row="1" Grid.ColumnSpan="2"/>
+        <Grid x:Name="addBookGrid" HorizontalAlignment="Left" Height="1038" Margin="0,40,0,0" VerticalAlignment="Top" Width="1920" Background="#FF17212B" Grid.RowSpan="2" Grid.ColumnSpan="2" Visibility="Hidden">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="521*"/>
+                <RowDefinition Height="517*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="960*"/>
+                <ColumnDefinition Width="961*"/>
+            </Grid.ColumnDefinitions>
+            <Grid x:Name="avatarGrid" HorizontalAlignment="Left" Height="345" Margin="788,68,0,0" VerticalAlignment="Top" Width="345" Grid.ColumnSpan="2">
+                <Image x:Name="avatarImage" HorizontalAlignment="Left" Height="240" Margin="54,58,0,0" VerticalAlignment="Top" Width="247" Source="Picture\avatar.png" MouseEnter="photoElipse_MouseEnter" MouseLeave="photoElipse_MouseLeave" MouseDown="avatarImage_MouseDown"/>
+                <Grid x:Name="changePhotoGrid" HorizontalAlignment="Left" Height="82" Margin="60,216,0,0" VerticalAlignment="Top" Width="225" Background="White" Opacity="0.5" MouseEnter="photoElipse_MouseEnter" MouseLeave="photoElipse_MouseLeave" Visibility="Hidden"/>
+                <Ellipse x:Name="photoElipse" StrokeThickness="55"
+            Stroke="#FF17212B" StrokeDashCap="Round" Margin="0,10,0,0" />
+                <Grid x:Name="changePhotoClickGrid" HorizontalAlignment="Left" Height="82" Margin="44,216,0,0" VerticalAlignment="Top" Width="247" MouseEnter="photoElipse_MouseEnter" MouseLeave="photoElipse_MouseLeave" MouseDown="avatarImage_MouseDown" Visibility="Hidden">
+                    <Image Margin="87,0,81,4" Source="Picture\photo.png" Stretch="Fill" Opacity="0.8"/>
+                </Grid>
+            </Grid>
+            <Grid x:Name="nameBookGrid" HorizontalAlignment="Left" Height="124" Margin="447,454,0,0" VerticalAlignment="Top" Width="471" Grid.RowSpan="2">
+                <Line x:Name="nameBookLine" X1="0" Y1="0" X2="471" Y2="0" StrokeThickness="5" Stroke="#FF1C7EC7" Margin="0,109,0,0" Opacity="0.8" />
+                <Line x:Name="nameBookRedLine" X1="0" Y1="0" X2="471" Y2="0" StrokeThickness="5" Stroke="#FFDE1717" Margin="0,109,0,5" Opacity="0.8" Visibility="Hidden" />
+                <TextBlock HorizontalAlignment="Left" Margin="0,5,0,0" TextWrapping="Wrap" Text="Название" VerticalAlignment="Top" FontSize="35" Foreground="#FF1C7EC7" Width="286"/>
+                <TextBox x:Name="nameBookTextBox" HorizontalAlignment="Left" Height="50" Margin="0,57,0,0" VerticalAlignment="Top" Width="471" FontSize="35" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" SelectionBrush="#33FFFFFF" GotFocus="nameBookTextBox_GotFocus"/>
+            </Grid>
+            <Grid x:Name="ownerBookGrid" HorizontalAlignment="Left" Height="124" Margin="45,454,0,0" VerticalAlignment="Top" Width="471" Grid.RowSpan="2" Grid.Column="1">
+                <Line x:Name="ownerBookLine" X1="0" Y1="0" X2="471" Y2="0" StrokeThickness="5" Stroke="#FF1C7EC7" Margin="0,109,0,0" Opacity="0.8" />
+                <Line x:Name="ownerBookRedLine" X1="0" Y1="0" X2="471" Y2="0" StrokeThickness="5" Stroke="#FFDE1717" Margin="0,109,0,5" Opacity="0.8" Visibility="Hidden" />
+                <TextBlock HorizontalAlignment="Left" Margin="0,5,0,0" TextWrapping="Wrap" Text="Владелец" VerticalAlignment="Top" FontSize="35" Foreground="#FF1C7EC7" Width="286"/>
+                <TextBox x:Name="ownerBookTextBox" HorizontalAlignment="Left" Height="50" Margin="0,57,0,0" VerticalAlignment="Top" Width="471" FontSize="35" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" SelectionBrush="#33FFFFFF" GotFocus="ownerBookTextBox_GotFocus"/>
+            </Grid>
+            <Grid x:Name="mailBookGrid" HorizontalAlignment="Left" Height="124" Margin="447,131,0,0" VerticalAlignment="Top" Width="471" Grid.Row="1">
+                <Line x:Name="mailBookLine" X1="0" Y1="0" X2="471" Y2="0" StrokeThickness="5" Stroke="#FF1C7EC7" Margin="0,109,0,0" Opacity="0.8" />
+                <Line x:Name="mailBookRedLine" X1="0" Y1="0" X2="471" Y2="0" StrokeThickness="5" Stroke="#FFDE1717" Margin="0,109,0,5" Opacity="0.8" Visibility="Hidden" />
+                <TextBlock HorizontalAlignment="Left" Margin="0,5,0,0" TextWrapping="Wrap" Text="E-mail" VerticalAlignment="Top" FontSize="35" Foreground="#FF1C7EC7" Width="286"/>
+                <TextBox x:Name="mailBookTextBox" HorizontalAlignment="Left" Height="50" Margin="0,57,0,0" VerticalAlignment="Top" Width="471" FontSize="35" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" SelectionBrush="#33FFFFFF" GotFocus="mailBookTextBox_GotFocus"/>
+            </Grid>
+            <Grid x:Name="passwordBookGrid" HorizontalAlignment="Left" Height="124" Margin="45,131,0,0" VerticalAlignment="Top" Width="471" Grid.Row="1" Grid.Column="1">
+                <Line X1="0" Y1="0" X2="471" Y2="0" StrokeThickness="5" Stroke="#FF1C7EC7" Margin="0,109,0,0" Opacity="0.8" />
+                <PasswordBox x:Name="passwordBookPB" HorizontalAlignment="Left" Margin="0,57,0,0" VerticalAlignment="Top" Width="471" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" Height="50" FontSize="35"/>
+                <TextBlock HorizontalAlignment="Left" Margin="0,5,0,0" TextWrapping="Wrap" Text="Пароль" VerticalAlignment="Top" FontSize="35" Foreground="#FF1C7EC7" Width="286"/>
+            </Grid>
+            <Button x:Name="acceptAddBookButton" Content="Принять" HorizontalAlignment="Left" Margin="793,385,0,0" Grid.Row="1" VerticalAlignment="Top" Width="333" FontSize="33" Height="61" Foreground="#E5FFFFFF" Background="#E5276899" BorderBrush="#FF1E282D" FontFamily="Segoe UI Historic" Grid.ColumnSpan="2" Click="acceptAddBookButton_Click"/>
+            <Border CornerRadius="7"
+                BorderBrush="#E5276899" BorderThickness="8" SnapsToDevicePixels="True" Margin="789,382,790,67" Grid.Row="1" Grid.ColumnSpan="2"/>
+            <Image x:Name="backImage" Margin="50,38,804,375" Source="Picture\back2.png" Stretch="Fill" Opacity="0.7" MouseEnter="backImage_MouseEnter" MouseDown="backImage_MouseDown" MouseLeave="backImage_MouseLeave"/>
+        </Grid>
+        <Image x:Name="quest" Grid.Column="1" Margin="869,68,39,416" Source="Picture/question.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5" Opacity="0.5" MouseEnter="quest_MouseEnter" MouseLeave="quest_MouseLeave" MouseDown="quest_MouseDown"/>
+        <Grid x:Name="bluerGrid" HorizontalAlignment="Left" Height="1038" Margin="0,40,0,0" VerticalAlignment="Top" Width="1920" Grid.ColumnSpan="2" Grid.RowSpan="2" Background="#4C000000" MouseDown="bluerGrid_MouseDown" Visibility="Hidden"/>
+        <Grid x:Name="questGrid" HorizontalAlignment="Left" Height="476" Margin="468,142,0,0" VerticalAlignment="Top" Width="984" Background="#FF17212B" Grid.RowSpan="2" Grid.ColumnSpan="2" Visibility="Hidden">
+            <TextBlock HorizontalAlignment="Left" Margin="38,92,0,0" TextWrapping="Wrap" Text="УО &quot;Минский Государственнвый колледж электроники&quot;" VerticalAlignment="Top" Foreground="White" FontSize="35" Width="908"/>
+            <TextBlock HorizontalAlignment="Left" Margin="432,399,0,0" TextWrapping="Wrap" Text="2021" VerticalAlignment="Top" Foreground="White" FontSize="35"/>
+            <TextBlock HorizontalAlignment="Left" TextAlignment="Center" Margin="38,179,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="White" FontSize="35" Width="908" Text="&quot;Моя телефонная книга&quot;"/>
+            <TextBlock HorizontalAlignment="Left" Margin="62,283,0,0" TextWrapping="Wrap" Text="Разработал:   Наркевич Михаил Виктрович" VerticalAlignment="Top" Foreground="White" FontSize="35" Width="884"/>
+            <Button x:Name="closeQuestButton" Content="Х" HorizontalAlignment="Left" Margin="893,10,0,0" VerticalAlignment="Top" Width="53" FontSize="33" Height="52" Foreground="#E5FFFFFF" Background="#E5E03636" BorderBrush="#FF1E282D" FontFamily="Segoe UI Historic" Click="closeQuestButton_Click"/>
+        </Grid>
+    </Grid>
+</Window>

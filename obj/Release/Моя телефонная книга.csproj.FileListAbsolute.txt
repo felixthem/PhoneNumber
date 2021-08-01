@@ -1,0 +1,100 @@
+C:\Users\Жмых\source\repos\Моя телефонная книга\bin\Release\PhoneBook.mdf
+C:\Users\Жмых\source\repos\Моя телефонная книга\bin\Release\PhoneBook_log.ldf
+C:\Users\Жмых\source\repos\Моя телефонная книга\bin\Release\Моя телефонная книга.exe.config
+C:\Users\Жмых\source\repos\Моя телефонная книга\bin\Release\Моя телефонная книга.exe
+C:\Users\Жмых\source\repos\Моя телефонная книга\bin\Release\Моя телефонная книга.pdb
+C:\Users\Жмых\source\repos\Моя телефонная книга\bin\Release\Microsoft.Expression.Drawing.dll
+C:\Users\Жмых\source\repos\Моя телефонная книга\bin\Release\PdfSharp.Charting.dll
+C:\Users\Жмых\source\repos\Моя телефонная книга\bin\Release\PdfSharp.dll
+C:\Users\Жмых\source\repos\Моя телефонная книга\bin\Release\System.Drawing.Common.dll
+C:\Users\Жмых\source\repos\Моя телефонная книга\bin\Release\Microsoft.Expression.Drawing.xml
+C:\Users\Жмых\source\repos\Моя телефонная книга\bin\Release\PdfSharp.xml
+C:\Users\Жмых\source\repos\Моя телефонная книга\bin\Release\PdfSharp.Charting.xml
+C:\Users\Жмых\source\repos\Моя телефонная книга\bin\Release\de\PdfSharp.resources.dll
+C:\Users\Жмых\source\repos\Моя телефонная книга\bin\Release\de\PdfSharp.Charting.resources.dll
+C:\Users\Жмых\source\repos\Моя телефонная книга\obj\Release\Моя телефонная книга.csprojAssemblyReference.cache
+C:\Users\Жмых\source\repos\Моя телефонная книга\obj\Release\MainWindow.g.cs
+C:\Users\Жмых\source\repos\Моя телефонная книга\obj\Release\AllLogUC.g.cs
+C:\Users\Жмых\source\repos\Моя телефонная книга\obj\Release\UserControls\BookUC.g.cs
+C:\Users\Жмых\source\repos\Моя телефонная книга\obj\Release\UserControls\ContactUC.g.cs
+C:\Users\Жмых\source\repos\Моя телефонная книга\obj\Release\UserControls\ExportUC.g.cs
+C:\Users\Жмых\source\repos\Моя телефонная книга\obj\Release\UserControls\GroupContactUC.g.cs
+C:\Users\Жмых\source\repos\Моя телефонная книга\obj\Release\UserControls\GroupUC.g.cs
+C:\Users\Жмых\source\repos\Моя телефонная книга\obj\Release\LogUC.g.cs
+C:\Users\Жмых\source\repos\Моя телефонная книга\obj\Release\UserControls\PrintCardUC.g.cs
+C:\Users\Жмых\source\repos\Моя телефонная книга\obj\Release\Window's\CallWindow.g.cs
+C:\Users\Жмых\source\repos\Моя телефонная книга\obj\Release\Window's\MenuWindow.g.cs
+C:\Users\Жмых\source\repos\Моя телефонная книга\obj\Release\Window's\PasswordWindow.g.cs
+C:\Users\Жмых\source\repos\Моя телефонная книга\obj\Release\App.g.cs
+C:\Users\Жмых\source\repos\Моя телефонная книга\obj\Release\Моя телефонная книга_Content.g.cs
+C:\Users\Жмых\source\repos\Моя телефонная книга\obj\Release\Моя телефонная книга_MarkupCompile.cache
+C:\Users\Жмых\source\repos\Моя телефонная книга\obj\Release\Моя телефонная книга_MarkupCompile.lref
+C:\Users\Жмых\source\repos\Моя телефонная книга\obj\Release\MainWindow.baml
+C:\Users\Жмых\source\repos\Моя телефонная книга\obj\Release\AllLogUC.baml
+C:\Users\Жмых\source\repos\Моя телефонная книга\obj\Release\UserControls\BookUC.baml
+C:\Users\Жмых\source\repos\Моя телефонная книга\obj\Release\UserControls\ContactUC.baml
+C:\Users\Жмых\source\repos\Моя телефонная книга\obj\Release\UserControls\ExportUC.baml
+C:\Users\Жмых\source\repos\Моя телефонная книга\obj\Release\UserControls\GroupContactUC.baml
+C:\Users\Жмых\source\repos\Моя телефонная книга\obj\Release\UserControls\GroupUC.baml
+C:\Users\Жмых\source\repos\Моя телефонная книга\obj\Release\LogUC.baml
+C:\Users\Жмых\source\repos\Моя телефонная книга\obj\Release\UserControls\PrintCardUC.baml
+C:\Users\Жмых\source\repos\Моя телефонная книга\obj\Release\Window's\CallWindow.baml
+C:\Users\Жмых\source\repos\Моя телефонная книга\obj\Release\Window's\MenuWindow.baml
+C:\Users\Жмых\source\repos\Моя телефонная книга\obj\Release\Window's\PasswordWindow.baml
+C:\Users\Жмых\source\repos\Моя телефонная книга\obj\Release\Моя телефонная книга.g.resources
+C:\Users\Жмых\source\repos\Моя телефонная книга\obj\Release\Моя_телефонная_книга.Properties.Resources.resources
+C:\Users\Жмых\source\repos\Моя телефонная книга\obj\Release\Моя телефонная книга.csproj.GenerateResource.cache
+C:\Users\Жмых\source\repos\Моя телефонная книга\obj\Release\Моя телефонная книга.csproj.CoreCompileInputs.cache
+C:\Users\Жмых\source\repos\Моя телефонная книга\obj\Release\Моя телефонная книга.csproj.CopyComplete
+C:\Users\Жмых\source\repos\Моя телефонная книга\obj\Release\Моя телефонная книга.exe
+C:\Users\Жмых\source\repos\Моя телефонная книга\obj\Release\Моя телефонная книга.pdb
+C:\Users\Жмых\Desktop\На флешку\PRG\Моя телефонная книга\bin\Release\PhoneBook.mdf
+C:\Users\Жмых\Desktop\На флешку\PRG\Моя телефонная книга\bin\Release\PhoneBook_log.ldf
+C:\Users\Жмых\Desktop\На флешку\PRG\Моя телефонная книга\bin\Release\Моя телефонная книга.exe.config
+C:\Users\Жмых\Desktop\На флешку\PRG\Моя телефонная книга\bin\Release\Моя телефонная книга.exe
+C:\Users\Жмых\Desktop\На флешку\PRG\Моя телефонная книга\bin\Release\Моя телефонная книга.pdb
+C:\Users\Жмых\Desktop\На флешку\PRG\Моя телефонная книга\bin\Release\Microsoft.Expression.Drawing.dll
+C:\Users\Жмых\Desktop\На флешку\PRG\Моя телефонная книга\bin\Release\PdfSharp.Charting.dll
+C:\Users\Жмых\Desktop\На флешку\PRG\Моя телефонная книга\bin\Release\PdfSharp.dll
+C:\Users\Жмых\Desktop\На флешку\PRG\Моя телефонная книга\bin\Release\System.Drawing.Common.dll
+C:\Users\Жмых\Desktop\На флешку\PRG\Моя телефонная книга\bin\Release\Microsoft.Expression.Drawing.xml
+C:\Users\Жмых\Desktop\На флешку\PRG\Моя телефонная книга\bin\Release\PdfSharp.xml
+C:\Users\Жмых\Desktop\На флешку\PRG\Моя телефонная книга\bin\Release\PdfSharp.Charting.xml
+C:\Users\Жмых\Desktop\На флешку\PRG\Моя телефонная книга\bin\Release\de\PdfSharp.resources.dll
+C:\Users\Жмых\Desktop\На флешку\PRG\Моя телефонная книга\bin\Release\de\PdfSharp.Charting.resources.dll
+C:\Users\Жмых\Desktop\На флешку\PRG\Моя телефонная книга\obj\Release\Моя телефонная книга.csprojAssemblyReference.cache
+C:\Users\Жмых\Desktop\На флешку\PRG\Моя телефонная книга\obj\Release\MainWindow.g.cs
+C:\Users\Жмых\Desktop\На флешку\PRG\Моя телефонная книга\obj\Release\AllLogUC.g.cs
+C:\Users\Жмых\Desktop\На флешку\PRG\Моя телефонная книга\obj\Release\UserControls\BookUC.g.cs
+C:\Users\Жмых\Desktop\На флешку\PRG\Моя телефонная книга\obj\Release\UserControls\ContactUC.g.cs
+C:\Users\Жмых\Desktop\На флешку\PRG\Моя телефонная книга\obj\Release\UserControls\ExportUC.g.cs
+C:\Users\Жмых\Desktop\На флешку\PRG\Моя телефонная книга\obj\Release\UserControls\GroupContactUC.g.cs
+C:\Users\Жмых\Desktop\На флешку\PRG\Моя телефонная книга\obj\Release\UserControls\GroupUC.g.cs
+C:\Users\Жмых\Desktop\На флешку\PRG\Моя телефонная книга\obj\Release\LogUC.g.cs
+C:\Users\Жмых\Desktop\На флешку\PRG\Моя телефонная книга\obj\Release\UserControls\PrintCardUC.g.cs
+C:\Users\Жмых\Desktop\На флешку\PRG\Моя телефонная книга\obj\Release\Window's\CallWindow.g.cs
+C:\Users\Жмых\Desktop\На флешку\PRG\Моя телефонная книга\obj\Release\Window's\MenuWindow.g.cs
+C:\Users\Жмых\Desktop\На флешку\PRG\Моя телефонная книга\obj\Release\Window's\PasswordWindow.g.cs
+C:\Users\Жмых\Desktop\На флешку\PRG\Моя телефонная книга\obj\Release\App.g.cs
+C:\Users\Жмых\Desktop\На флешку\PRG\Моя телефонная книга\obj\Release\Моя телефонная книга_Content.g.cs
+C:\Users\Жмых\Desktop\На флешку\PRG\Моя телефонная книга\obj\Release\Моя телефонная книга_MarkupCompile.cache
+C:\Users\Жмых\Desktop\На флешку\PRG\Моя телефонная книга\obj\Release\Моя телефонная книга_MarkupCompile.lref
+C:\Users\Жмых\Desktop\На флешку\PRG\Моя телефонная книга\obj\Release\MainWindow.baml
+C:\Users\Жмых\Desktop\На флешку\PRG\Моя телефонная книга\obj\Release\AllLogUC.baml
+C:\Users\Жмых\Desktop\На флешку\PRG\Моя телефонная книга\obj\Release\UserControls\BookUC.baml
+C:\Users\Жмых\Desktop\На флешку\PRG\Моя телефонная книга\obj\Release\UserControls\ContactUC.baml
+C:\Users\Жмых\Desktop\На флешку\PRG\Моя телефонная книга\obj\Release\UserControls\ExportUC.baml
+C:\Users\Жмых\Desktop\На флешку\PRG\Моя телефонная книга\obj\Release\UserControls\GroupContactUC.baml
+C:\Users\Жмых\Desktop\На флешку\PRG\Моя телефонная книга\obj\Release\UserControls\GroupUC.baml
+C:\Users\Жмых\Desktop\На флешку\PRG\Моя телефонная книга\obj\Release\LogUC.baml
+C:\Users\Жмых\Desktop\На флешку\PRG\Моя телефонная книга\obj\Release\UserControls\PrintCardUC.baml
+C:\Users\Жмых\Desktop\На флешку\PRG\Моя телефонная книга\obj\Release\Window's\CallWindow.baml
+C:\Users\Жмых\Desktop\На флешку\PRG\Моя телефонная книга\obj\Release\Window's\MenuWindow.baml
+C:\Users\Жмых\Desktop\На флешку\PRG\Моя телефонная книга\obj\Release\Window's\PasswordWindow.baml
+C:\Users\Жмых\Desktop\На флешку\PRG\Моя телефонная книга\obj\Release\Моя телефонная книга.g.resources
+C:\Users\Жмых\Desktop\На флешку\PRG\Моя телефонная книга\obj\Release\Моя_телефонная_книга.Properties.Resources.resources
+C:\Users\Жмых\Desktop\На флешку\PRG\Моя телефонная книга\obj\Release\Моя телефонная книга.csproj.GenerateResource.cache
+C:\Users\Жмых\Desktop\На флешку\PRG\Моя телефонная книга\obj\Release\Моя телефонная книга.csproj.CoreCompileInputs.cache
+C:\Users\Жмых\Desktop\На флешку\PRG\Моя телефонная книга\obj\Release\Моя телефонная книга.csproj.CopyComplete
+C:\Users\Жмых\Desktop\На флешку\PRG\Моя телефонная книга\obj\Release\Моя телефонная книга.exe
+C:\Users\Жмых\Desktop\На флешку\PRG\Моя телефонная книга\obj\Release\Моя телефонная книга.pdb

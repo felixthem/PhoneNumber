@@ -1,0 +1,16 @@
+﻿<UserControl x:Class="Моя_телефонная_книга.UserControls.ContactUC"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Моя_телефонная_книга.UserControls"
+             mc:Ignorable="d" d:DesignWidth="800" Background="#FF17212B" Width="570" Height="135" MouseDown="UserControl_MouseDown">
+    <Grid>
+        <TextBlock x:Name="fioContactTB" HorizontalAlignment="Left" Margin="157,22,0,0" TextWrapping="Wrap" Text="Лучшая в мире книга" VerticalAlignment="Top" FontSize="30" Foreground="#BFFFFFFF" Height="43" Width="403"/>
+        <Image x:Name="avatarImage" HorizontalAlignment="Left" Height="93" Margin="31,22,0,0" VerticalAlignment="Top" Width="96" Source="/Моя телефонная книга;component/Picture/avatar.png"/>
+        <Ellipse x:Name="photoElipse" StrokeThickness="23"
+            Stroke="#FF17212B" StrokeDashCap="Round" Margin="11,3,424,0" />
+        <TextBlock x:Name="numberContactTB" HorizontalAlignment="Left" Margin="157,76,0,0" TextWrapping="Wrap" Text="Иванов Иван" VerticalAlignment="Top" FontSize="30" Foreground="#99FFFFFF" Height="39" Width="403"/>
+
+    </Grid>
+</UserControl>

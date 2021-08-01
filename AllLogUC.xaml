@@ -1,0 +1,21 @@
+﻿<UserControl x:Class="Моя_телефонная_книга.UserControls.AllLogUC"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Моя_телефонная_книга.UserControls"
+              mc:Ignorable="d" 
+             d:DesignHeight="450" Width="980" Height="130" Background="#FF17212B">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <TextBlock x:Name="infoCall" HorizontalAlignment="Left" Margin="104,67,0,0" TextWrapping="Wrap" Text="Входящий вызов, 0 мин. 43 сек." VerticalAlignment="Top" FontSize="28" Foreground="#BFFFFFFF" Height="42" Width="491"/>
+        <Image x:Name="picTypeCall" HorizontalAlignment="Left" Height="57" Margin="23,39,0,0" VerticalAlignment="Top" Width="56" Source="in.png" Opacity="0.6"/>
+        <TextBlock x:Name="dateCall" HorizontalAlignment="Left" Margin="104,20,0,0" Text="12/12/2002 10/40" VerticalAlignment="Top" FontSize="28" Foreground="#B2FFFFFF" Height="43" Width="390" FontWeight="Bold"/>
+        <Grid x:Name="fioBluerGrid" HorizontalAlignment="Left" Height="43" Margin="494,10,0,0" VerticalAlignment="Top" Width="486" Background="#19FFFFFF" Visibility="Hidden"/>
+        <TextBlock x:Name="fioCall" HorizontalAlignment="Left" TextAlignment="Right"  Margin="494,10,0,0" Text="Наркевич Михаил Викторович" VerticalAlignment="Top" FontSize="28" Foreground="#E5FFFFFF" Height="43" Width="476" FontWeight="Bold" MouseEnter="fioCall_MouseEnter" MouseLeave="fioCall_MouseLeave" MouseDown="fioCall_MouseDown"/>
+        <TextBlock x:Name="numberCall" HorizontalAlignment="Left" TextAlignment="Right"  Margin="595,66,0,0" Text="+375296017614" VerticalAlignment="Top" FontSize="28" Foreground="#E5FFFFFF" Height="43" Width="375"/>
+
+    </Grid>
+</UserControl>
