@@ -21,19 +21,19 @@ namespace Моя_телефонная_книга
             InitializeComponent();
             UpdateNoteBooks();
             FilePathAvatar = @"C:\Users\Жмых\source\repos\Моя телефонная книга\Picture\avatar.png";
-            FilePathAvatar = @"C:\Users\Жмых\source\repos\Моя телефонная книга\Picture\avatar.png";
-            FilePathAvatar = @"C:\Users\Жмых\source\repos\Моя телефонная книга\Picture\avatar.png";
-            nameBookTextBox.MaxLength = 30;
-            ownerBookTextBox.MaxLength = 30;
-            mailBookTextBox.MaxLength = 43;
-            passwordBookPB.MaxLength = 20;
+            //FilePathAvatar = @"C:\Users\Жмых\source\repos\Моя телефонная книга\Picture\avatar.png";
+            //FilePathAvatar = @"C:\Users\Жмых\source\repos\Моя телефонная книга\Picture\avatar.png";
+            //nameBookTextBox.MaxLength = 30;
+            //ownerBookTextBox.MaxLength = 30;
+            //mailBookTextBox.MaxLength = 43;
+            //passwordBookPB.MaxLength = 20;
         }
 
         //Работа кнопок правой верхней панели
         private void closeGrid_MouseEnter(object sender, MouseEventArgs e)
         {
             closeGrid.Background = Brushes.Red;
-            closeImage.Opacity = 1;
+            //closeImage.Opacity = 1;
         }
 
         private void closeGrid_MouseLeave(object sender, MouseEventArgs e)
